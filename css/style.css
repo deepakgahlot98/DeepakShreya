@@ -1112,6 +1112,24 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 20px !important;
 }
 
+.groom-girl img {
+  margin-bottom: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+@media screen and (max-width: 768px) {
+  .groom-girl img {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+.groom-girl h3 {
+  font-family: "Clicker Script", cursive;
+  font-size: 28px;
+}
+
 .groom-men img {
   margin-bottom: 20px;
   -webkit-border-radius: 50%;
@@ -1674,6 +1692,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .js .animate-box {
+  opacity: 0;
+}
+
+.js .animate-box-bride {
+  margin-left: 20px;    
   opacity: 0;
 }
 
