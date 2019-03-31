@@ -28,7 +28,7 @@
 			nav: false,
 			dots: true,
 			smartSpeed: 800,
-			autoHeight: false
+			autoHeight: true
 		});
 	};
 
